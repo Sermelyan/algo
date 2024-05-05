@@ -1,10 +1,10 @@
-package insert
+package insertion
 
 import (
 	"cmp"
 )
 
-func Insert[T cmp.Ordered](s []T) {
+func Insertion[T cmp.Ordered](s []T) {
 	for i := 1; i < len(s); i++ {
 		k := s[i]
 
